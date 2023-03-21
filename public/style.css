@@ -1,0 +1,108 @@
+  /* public/styles.css */
+  main{
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+
+  body{
+    background-color: #191414;
+
+  }
+
+/* public/styles.css */
+
+.title-month{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 450px;
+  justify-items: center;
+  align-items: center;
+  color: #1DB954;
+  font-weight: 900;
+
+  
+}
+
+
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-items: center;
+  align-items: center;
+  color: #1DB954;
+  font-weight: 900;
+
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0.50rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  column-count: 4;
+  width: 200px;
+  height: 270px;
+  background-color: #222222;
+  color: white;
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+
+.card:hover {
+background-color: #363636d8;
+transition: 0.6s;
+}
+
+.card-image {
+  position: relative;
+  border-radius: 50px;
+}
+
+.card-image img {
+  width: 85%;
+  height: 85%;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-left: 15px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  box-shadow: 0px 0px 23px 9px rgba(0, 0, 0, 0.74);
+}
+
+
+.card-content {
+  margin-left: 10px;
+}
+
+.card-content h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-bottom: 1px;
+  color: white;
+  font-weight: 700;
+}
+
+.card-content p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  margin-bottom: 1rem;
+  color: #a1a1a1;
+  font-weight: 500;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+
+
+}
+
+
